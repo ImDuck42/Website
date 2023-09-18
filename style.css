@@ -103,8 +103,6 @@ body{
     background-size:cover ;
     border-radius: 20px;
     overflow: hidden;
-    
-    
 }
 .item{
     position: absolute;
@@ -118,9 +116,6 @@ body{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    
-
-
 }
 .item .logo{
     color: #fff;
@@ -149,7 +144,7 @@ body{
     position: absolute;
     top: 0;
     right: 0;
-    width: calc(100% - 58%);
+    width: calc(100% - 65%);
     height: 100%;
     color: #fff;
     backdrop-filter: blur(10px);
