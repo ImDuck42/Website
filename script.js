@@ -7,3 +7,4 @@ registerlink.addEventListener('click',()=>{
 loginlink.addEventListener('click',()=>{
     loginsec.classList.remove('active')
 })
+
