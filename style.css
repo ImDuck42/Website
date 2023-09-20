@@ -148,7 +148,6 @@ body{
     color: #fff;
     backdrop-filter: blur(10px);
 }
-
 .login-section .form-box{
     position: absolute;
     display: flex;
@@ -156,7 +155,6 @@ body{
     align-items: center;
     width: 100%;
     height: 100%;
-    
 }
 .login-section .form-box.register{
     transform: translateX(430px);
@@ -167,7 +165,6 @@ body{
     transform: translateX(0px);
     transition-delay: .7s;
 }
-
 .login-section .form-box.login{
     transform: translateX(0px);
     transition: transform .6s ease;
@@ -177,14 +174,10 @@ body{
     transform: translateX(430px);
     transition-delay: 0s;
 }
-
-
-
 .login-section .form-box h2{
     text-align: center;
     font-size: 25px;
 }
-
 .form-box .input-box{
     width: 340px;
     height: 50px;
@@ -200,8 +193,6 @@ body{
     outline: none;
     font-size: 16px;
     padding-right: 28px;
-
-
 }
 .input-box label{
     position: absolute;
