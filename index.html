@@ -10,14 +10,14 @@
    <header class="header">
     <nav class="navbar">
         <a href="#">Home</a>
-        <a href="#">Portfolio</a>
+        <a href="">Portfolio</a>
           <a href="#">About</a>
           <a href="#">Contact</a>
           <a href="#">Help</a>
     </nav>
     <form action="" class="search-bar">
-       <input type="text" placeholder="Search...">
-       <button><i class='bx bx-search'></i></button>
+        <input type="text" id="codeInput" placeholder="Search..." class="code-input">
+        <button id="submitButton"><i class='bx bx-search'></i></button>
     </form>
    </header>
     <!-- LOGIN FORM CREATION -->
@@ -41,7 +41,7 @@
         </div>
         <div class="login-section">
             <div class="form-box login">
-                <form action="/login" method="POST">
+                <form action="">
                     <h2>Log In</h2>
                     <div class="input-box">
                         <span class="icon"><i class='bx bxs-envelope'></i></span>
@@ -64,7 +64,7 @@
                 </form>
             </div>
             <div class="form-box register">
-                <form action="/register" method="POST">
+                <form action="">
                     <h2>Sign Up</h2>
                     <div class="input-box">
                         <span class="icon"><i class='bx bxs-user'></i></span>
@@ -86,7 +86,7 @@
                     </div>
                     <button class="btn">Sign Up</button>
                     <div class="create-account">
-                        <p>Already Have An Account? <a href="#" class="login-link" aria-required="true">Sign In</a></p>
+                        <p>Already Have An Account? <a href="#" class="login-link">Sign In</a></p>
                     </div>
                 </form>
             </div>
@@ -96,5 +96,4 @@
      <!-- SIGN UP FORM CREATION -->
     <script src="script.js"></script>
 </body>
-
 </html>

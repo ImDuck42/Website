@@ -7,3 +7,20 @@ registerlink.addEventListener('click',()=>{
 loginlink.addEventListener('click',()=>{
     loginsec.classList.remove('active')
 })
+
+
+document.getElementById('submitButton').addEventListener('click', function (event) {
+    event.preventDefault();
+   
+    const enteredCode = document.getElementById('codeInput').value;
+
+    fetch('/assets/code.sec')
+        .then(response => response.text())
+        .then(specialCode => {
+            if (enteredCode === specialCode) {
+                window.location.href = 'Website/index.html';
+            }            
+        });
+});
+
+
